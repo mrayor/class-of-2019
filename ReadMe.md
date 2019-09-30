@@ -1,9 +1,11 @@
 git# Class of 2019
 
-### Adewuyi Emmanuel
+### Azzim Adebola
 
+### Adewuyi Emmanuel
 
 ### Opebiyi Femi
 
 ### Alalade Olanrewaju
 
+### Joseph Esiorho
