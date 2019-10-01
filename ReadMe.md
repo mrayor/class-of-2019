@@ -9,3 +9,5 @@ git# Class of 2019
 ### Alalade Olanrewaju
 
 ### Joseph Esiorho
+
+### Mariam Olayinka Alamu
