@@ -1,0 +1,66 @@
+header {
+  background: linear-gradient(30deg, #1177b3, #d109b6);
+}
+#navbar {
+  color: white;
+  overflow: auto;
+}
+#navbar a {
+  color: #fff;
+}
+#navbar .logo {
+  float: left;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+#navbar ul {
+  float: right;
+  list-style: none;
+}
+#navbar ul li {
+  float: left;
+}
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  padding-right: 50px;
+}
+.banner {
+  text-align: center;
+  height: 200px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.floater {
+  display: inline;
+}
+.floater h3 {
+  color: white;
+}
+.floater textarea {
+  width: 50%;
+  padding: 9px;
+  border: #ddd 1px solid;
+  border-radius: 0.5em;
+}
+.btn {
+  font-size: 18px;
+  color: white;
+  padding: 10px 25px;
+  cursor: pointer;
+  margin: 0px;
+  border-radius: 4px;
+  background-color: #1c1b55;
+  border: #1c1b55 1px solid;
+  height: 50px;
+}
+form {
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+
