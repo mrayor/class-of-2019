@@ -1,10 +1,14 @@
-# Class of 2019
+git# Class of 2019
 
-### Joseph Esiorho 
+### Azzim Adebola
 
+### Adewuyi Emmanuel
 
-### Azzim Adebola Aina
+### Opebiyi Femi
 
-### Adesanya Ayokunle - Coordinator
+### Alalade Olanrewaju
 
+### Joseph Esiorho
+
+### Mariam Olayinka Alamu
 
