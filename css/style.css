@@ -1,7 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
 header {
   background: linear-gradient(30deg, #1177b3, #d109b6);
   border-radius: 3px;
 }
+
 #navbar {
   color: white;
   overflow: auto;
@@ -12,10 +19,12 @@ header {
 #navbar .logo {
   float: left;
   padding-top: 20px;
+  margin-left: 40px;
 }
 #navbar ul {
   float: right;
   list-style: none;
+  margin-right: 40px;
 }
 #navbar ul li {
   float: left;
@@ -59,4 +68,20 @@ form {
   display: flex;
   justify-content: center;
   border-radius: 4px;
+}
+
+.Response {
+  padding: 20px;
+  padding-left: 10px;
+  display: inline-block;
+}
+
+.Response i {
+  justify-content: space-between;
+  letter-spacing: 1em;
+}
+
+p {
+  width: 70%;
+  font-family: "Lora", serif;
 }
