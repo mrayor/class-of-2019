@@ -7,7 +7,7 @@
     , initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/style.css" />
     <script src="https://kit.fontawesome.com/9399eebe02.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato|Pacifico|Roboto+Mono&display=swap" rel="stylesheet">
 
@@ -19,10 +19,11 @@
             <div class="container">
                 <h3 class="logo">WISSEN</a></h3>
                 <ul>
-                    <li><a href="#">CONTACT US</a></li>
-                    <li><a href="#">HOW IT WORKS</a></li>
+                    <li><a class="current" href="index.html">HOME</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
                     <li><a href="#">BROWSE QUESTIONS</a></li>
-                    <li><a href="#">HOW IT WORKS</a></li>
+
                 </ul>
             </div>
         </nav>
@@ -31,8 +32,8 @@
             <div class="floater">
                 <h3>HAVE A QUESTION?</h3>
                 <form class="text-btn">
-                    <textarea name="question" id="question" cols="50" rows="1"
-                        placeholder="Type your question here"></textarea>
+                    <input name="question" id="question" cols="50" rows="1"
+                        placeholder="Type your question here"></input>
                     <button type="submit" class="btn">Submit</button>
                 </form>
             </div>
@@ -123,16 +124,13 @@
         </div>
     </section>
 
-    <nav id="navbar3">
-        <div class="container">
-            <ul>
-                <li><a class="current" href="#">1</a></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-                <li><a href="#">></a></li>
-            </ul>
-        </div>
-    </nav>
+    <div class="site-pagination">
+        <a href="" class="current">01</a>
+        <a href="">02</a>
+        <a href="">03</a>
+        <a href="">04</a>
+        <a href="">>></a>
+    </div>
 
     <section id="Social-Media">
 

@@ -12,6 +12,15 @@ header {
   background: url("/img/wow.jpg");
   background-size: cover;
   border-radius: 3px;
+  background-attachment: fixed;
+}
+
+#about {
+  background: url("/img/us.jpg");
+  background-size: cover;
+  border-radius: 3px;
+  background-attachment: fixed;
+  height: 100vh;
 }
 
 #navbar {
@@ -46,6 +55,50 @@ header {
 #navbar ul li a:hover {
   color: red;
 }
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  color: red;
+}
+
+#nav-about {
+  color: red;
+  overflow: auto;
+}
+
+#nav-about a {
+  color: black;
+  text-decoration: none;
+}
+#nav-about .logo {
+  float: left;
+  padding-top: 20px;
+  margin-left: 40px;
+  font-family: "Pacifico", cursive;
+}
+#nav-about ul {
+  float: right;
+  list-style: none;
+  margin-right: 40px;
+}
+#nav-about ul li {
+  float: left;
+}
+#nav-about ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#nav-about ul li a:hover {
+  color: red;
+}
+
+#nav-about ul li a:hover,
+#nav-about ul li a.current {
+  color: red;
+}
+
 .banner {
   text-align: center;
   height: 300px;
@@ -57,12 +110,13 @@ header {
   display: inline;
 }
 .floater h3 {
-  color: rgb(185, 76, 127);
+  color: red;
   margin-top: 200px;
   font-size: 1.9em;
 }
-.floater textarea {
+.floater input {
   width: 50%;
+  height: 29px;
   padding: 9px;
   border: #ddd 1px solid;
   border-radius: 4px;
@@ -77,16 +131,16 @@ header {
   cursor: pointer;
   margin-left: 20px;
   border-radius: 4px;
+  border: red;
 }
 .btn:hover {
   /*
           Hover background color for button is #37a08e
         */
-  background-color: rgb(149, 232, 238);
+  background-color: rgb(168, 40, 31);
   color: black;
 }
-
-form {
+.text-btn {
   display: flex;
   justify-content: center;
   border-radius: 4px;
@@ -113,7 +167,7 @@ form {
   justify-content: space-between;
   text-decoration: none;
   font-size: 1.2em;
-  color: black;
+  color: rgb(223, 221, 221);
   border-bottom: 1px solid;
 }
 
@@ -161,46 +215,31 @@ form {
   margin: 20px;
 }
 
-#navbar3 {
-  justify-content: center;
-  display: flex;
-}
-
-#navbar3 ul {
-  float: right;
-  list-style: none;
-  margin-right: 40px;
-}
-#navbar3 ul li {
-  float: left;
-}
-
-#navbar3 ul li a {
-  display: block;
-  margin-top: 10px;
-  padding: 20px;
+.site-pagination {
   text-align: center;
-  justify-content: space-between;
-  text-decoration: none;
-  font-size: 1.2em;
-  color: black;
-  border: 1px solid white;
-  letter-spacing: 2em;
-  height: 2px;
-  width: 2px;
-  background-color: rgb(194, 192, 192);
-  border-radius: 3px;
+  padding-top: 4px;
 }
 
-#navbar3 ul li a:hover,
-#navbar3 ul li a.current {
-  background: red;
+.site-pagination a {
+  display: inline-block;
+  height: 20px;
+  font-size: 14px;
+  font-weight: 500;
   color: white;
+  padding: 4px;
+  text-decoration: none;
+  background: #888888;
+}
+
+.site-pagination a.current {
+  color: #fff;
+  background: red;
+  padding: 4px;
 }
 
 .box {
   float: left;
-  width: 411px;
+  width: 23.49%;
   padding: 10px;
   text-align: center;
   height: 100px;
@@ -246,7 +285,7 @@ form {
   background: url("/img/bc.jpg");
   background-size: cover;
   color: white;
-  height: 70vh;
+  height: 97vh;
 }
 
 #main-footer .container {
@@ -274,10 +313,114 @@ form {
 .bag i {
   margin-top: 20px;
   font-size: 0.7em;
+  color: rgb(165, 160, 160);
 }
 
 .closing p {
   border-bottom: 1px solid;
   font-size: 1.2em;
   color: white;
+}
+
+/* Contact Form */
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+#contact-form textarea {
+  height: 200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: rgb(230, 37, 47);
+}
+/* Padding */
+.py-1 {
+  padding: 10px 0;
+}
+.py-2 {
+  padding: 20px 0;
+}
+.py-3 {
+  padding: 30px 0;
+}
+/* Utility Classes */
+.l-heading {
+  font-size: 40px;
+  line-height: 1.2;
+}
+.container1 {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+.text-primary {
+  color: rgb(230, 37, 47);
+}
+
+.floater2 {
+  display: inline;
+  text-align: center;
+}
+.floater2 h3 {
+  color: red;
+  margin-top: 200px;
+  font-size: 1.9em;
+}
+
+.floater2 p {
+  color: red;
+}
+
+/* Features */
+.box1 {
+  float: left;
+  width: 30.3%;
+  padding: 50px;
+  text-align: center;
+}
+
+.box1 i {
+  margin-bottom: 10px;
+}
+
+/* Meet the Team */
+.Contributors {
+  justify-content: space-between;
+  height: 100%;
+  width: 40%;
+  background-color: white;
+}
+
+.Contributors .team img {
+  height: 150px;
+  width: 140px;
+}
+
+.mate {
+  display: flex;
+  flex: wrap;
+}
+
+.team {
+  margin: 5px;
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
 }
